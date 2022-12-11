@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Unsual calculator" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Unsual calculator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Unsual calculator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ABSVAL.h" />
+		<Unit filename="ARITHMETIC.h" />
+		<Unit filename="BUSINESS.h" />
+		<Unit filename="CEILFLOOR.h" />
+		<Unit filename="EVENODD.h" />
+		<Unit filename="EXPLOG.h" />
+		<Unit filename="FACTORIAL.h" />
+		<Unit filename="HCF_OR_GCD_AND_LCM.h" />
+		<Unit filename="MAIN.h" />
+		<Unit filename="MATRIX.h" />
+		<Unit filename="MULTBL.h" />
+		<Unit filename="NUMSYSCONV.h" />
+		<Unit filename="OTHERS.h" />
+		<Unit filename="PHYSICS.h" />
+		<Unit filename="PRIMENUM.h" />
+		<Unit filename="SQUAREROOT.h" />
+		<Unit filename="TRIGONOMETERY.h" />
+		<Unit filename="VOLUME_AREA.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
